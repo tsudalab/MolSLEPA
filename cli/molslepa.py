@@ -28,7 +28,7 @@ class ParallelThread(threading.Thread):
 
 model_dir = "/home/jiawen/molecular_design/molecule_generation/cli/zinc_vocab_1000_outputs/"
 
-class SLEPA():
+class Sample():
     def __init__(self, multisets, function, opt):
         self.vocabulary = multisets
         self.items = np.arange(30)
@@ -257,7 +257,7 @@ def main():
             ]
     opt = 'max' # or 'min'
     function = GapPrediction(opt)
-    slepa = SLEPA(multisets, function, opt)
+    slepa = Sample(multisets, function, opt)
     slepa.self_learning_population_annealing()
 
 main()

@@ -185,7 +185,7 @@ class Sample():
         E_current = np.array(E_current)[ids]
         return x_current, E_current 
     
-class MultiHistogram():
+class DosEstimation():
     def __init__(self):
         self.num_discretize = 50
         

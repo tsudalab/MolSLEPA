@@ -18,7 +18,7 @@ All command line executables are under the folder 'cli':
 cd cli
 ```
 
-The molecule generation in MolSLEPA refers to MoLeR (https://github.com/microsoft/molecule-generation). 
+The molecule generation in MolSLEPA refers to [MoLeR](https://github.com/microsoft/molecule-generation). 
 To run MolSLEPA, follow four steps:
 
 ### Step 1: Preprocessing
